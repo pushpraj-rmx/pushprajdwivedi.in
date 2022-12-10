@@ -1,0 +1,54 @@
+/* global rule */
+
+a {
+    text-decoration: none;
+}
+
+
+h1 {
+    color: rgb(255,192,0);
+}
+
+
+.hero {
+    height: 100vh;
+    background-color: rgb(51,51,51);
+    color: white;
+}
+    
+.hero-image {
+background-size: contain;
+}
+
+.button {
+    display: inline-block;
+    /* color: white; */
+    background-color: rgb(255,192,0);
+    padding: 15px;
+    border-radius: .5rem;
+    position: relative;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* notes */
+/* position: static;  */
+/* default - top -bottom no effect*/
+
+/* position: relative;  */
+/* relative to its position*/
+
+/* position: absolute;  */
+/* goes out of the document flow, relative to it's parent/ancestor whose position is not static */
+
+/* position: fixed;  */
+/* fixed respective to viewport*/
+
+/* position: sticky;  */
+/* sticky - set top 0, and it just works */
